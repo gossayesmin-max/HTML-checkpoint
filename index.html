@@ -5,30 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio </title>
     <link rel="icon" href ="assets/icon.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
     
 </head>
 
 <body>
     <header>
         <nav>
-            <img src="assets/images.jpg" alt="logo" width="200px">
+            
             <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li class="navbar"><a href="#Home">Home</a></li>
+                <li class="navbar"><a href="#About">About</a></li>
+                <li class="navbar"><a href="#skills">Skills</a></li>
+                <li class="navbar"><a href="#Projects">Projects</a></li>
+                <li class="navbar"><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
         <main>
             <section id="Home">
-                <img src="assets/software-engineering-program-opt.jpg" alt="photo" width="200px">
                 <h1>Hi!I'm Yesmin Gossa</h1>
+                <img src="assets/software-engineering-program-opt.jpg">
                 <p>Software enginner|Full-Stack developer <br>I turn ideas into software </p>
                 
             </section>
             <hr>
             <section id="About">
+                <h2>About Me </h2>
                 <h3>I am a Computer Science graduate passionate about software development and problem solving. I enjoy building web applications, working with databases, and exploring modern software engineering practices. I'm currently focused on strengthening my skills in backend and full-stack development.</h3>
 
             </section>
@@ -72,7 +74,7 @@
             <hr>
             <section id="Contact">
                 
-                <h3>Contact ME!</h3>
+                <h2>Contact ME!</h2>
                 <form>
                     <label for="fname" >First name</label>
                     <input type="text" id="fname" name="fname" required placeholder="First name">
